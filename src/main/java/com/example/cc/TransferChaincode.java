@@ -10,7 +10,7 @@ import javax.json.JsonObjectBuilder;
 import org.hyperledger.fabric.shim.ChaincodeBase;
 import org.hyperledger.fabric.shim.ChaincodeStub;
 
-public class TrasnferChaincode extends ChaincodeBase {
+public class TransferChaincode extends ChaincodeBase {
 
   @Override
   public Response init(ChaincodeStub stub) {
@@ -68,7 +68,7 @@ public class TrasnferChaincode extends ChaincodeBase {
   }
 
   public static void main(String[] args) throws Exception {
-    new TrasnferChaincode().start(args);
+    new TransferChaincode().start(args);
   }
 
 }
