@@ -31,7 +31,7 @@ public class TransferChaincode extends ChaincodeBase {
     case "transfer":
       break;
     default:
-      break;
+      break; 
     }
     return newErrorResponse(Json.createObjectBuilder().add("Error", "Unknown operation").build().toString());
   }
